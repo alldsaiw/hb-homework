@@ -1,0 +1,52 @@
+@import '../assets/fonts';
+
+header{
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+}
+
+li{
+    font-family: Montserrat;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .header__wrapper, .header__main__menu, .header__smm__icons, .header__shopping__menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__main__menu{
+        width: 665px;
+        justify-content: space-between;
+            &__item{
+                font-weight: 700;
+                color: #4C858B;
+            }
+    }
+
+    .header__phone, .header__callback {
+        padding-left: 70px;
+    }
+
+    .header__smm__icons{
+        padding-left: 61px;
+        &__item{
+            padding-left: 16px;
+        }
+    }
+
+    .header__shopping__menu{
+        padding-left: 60px;
+        &__item{
+            padding-right: 16px;
+        }
+    }
+}
+

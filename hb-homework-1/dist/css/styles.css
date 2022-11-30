@@ -1,0 +1,60 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components.scss ***!
+  \**************************************************************************************************************/
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/images/Montserrat-Medium.ttf);
+  font-style: normal;
+}
+header {
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+}
+
+li {
+  font-family: Montserrat;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+nav .header__wrapper, nav .header__main__menu, nav .header__smm__icons, nav .header__shopping__menu {
+  display: flex;
+  align-items: center;
+}
+nav .header__main__menu {
+  width: 665px;
+  justify-content: space-between;
+}
+nav .header__main__menu__item {
+  font-weight: 700;
+  color: #4C858B;
+}
+nav .header__phone, nav .header__callback {
+  padding-left: 70px;
+}
+nav .header__smm__icons {
+  padding-left: 61px;
+}
+nav .header__smm__icons__item {
+  padding-left: 16px;
+}
+nav .header__shopping__menu {
+  padding-left: 60px;
+}
+nav .header__shopping__menu__item {
+  padding-right: 16px;
+}
+
+p {
+  color: rgb(200, 228, 43);
+}
+
+html {
+  width: 1920px;
+}
