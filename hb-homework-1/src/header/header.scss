@@ -4,12 +4,15 @@ header{
     max-width: 1920px;
     margin: auto;
     display: flex;
+    margin-top: 20px;
+    margin-left: 63px;
 }
 
 li{
     font-family: Montserrat;
     list-style-type: none;
     text-transform: uppercase;
+    color: #4C858B;
 }
 
 nav {
@@ -17,22 +20,52 @@ nav {
     display: flex;
     align-items: center;
 
+
     .header__wrapper, .header__main__menu, .header__smm__icons, .header__shopping__menu {
         display: flex;
         align-items: center;
     }
 
+    .header__menu__burger{
+        margin-left: 52px;
+        margin-right: 31px;
+    }
+
     .header__main__menu{
+        display: flex;
         width: 665px;
         justify-content: space-between;
             &__item{
                 font-weight: 700;
                 color: #4C858B;
+                padding-right: 20px;
             }
     }
 
     .header__phone, .header__callback {
         padding-left: 70px;
+    }
+
+    .header-phone {
+        letter-spacing: 0.08em;
+        line-height: 19.5px;
+        color: #4C858B;   
+    }
+    strong {
+        font-weight: 900;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        margin-left: 0.4em;
+        letter-spacing: 0.08em;        
+    }
+
+    .header__callback{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #AE2236;
+        text-decoration: underline dashed;
+        text-underline-offset: 8px;
     }
 
     .header__smm__icons{
