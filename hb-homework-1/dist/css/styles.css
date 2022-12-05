@@ -26,6 +26,9 @@ nav {
   display: flex;
   align-items: center;
 }
+nav ul {
+  padding-inline-start: 0;
+}
 nav .header__wrapper, nav .header__main__menu, nav .header__smm__icons, nav .header__shopping__menu {
   display: flex;
   align-items: center;

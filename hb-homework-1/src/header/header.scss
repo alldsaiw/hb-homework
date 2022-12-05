@@ -20,6 +20,8 @@ nav {
     display: flex;
     align-items: center;
 
+    ul{padding-inline-start: 0;}
+
 
     .header__wrapper, .header__main__menu, .header__smm__icons, .header__shopping__menu {
         display: flex;
