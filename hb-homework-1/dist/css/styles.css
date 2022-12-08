@@ -90,3 +90,12 @@ p {
 html {
   width: 1920px;
 }
+
+main {
+  max-width: 1920px;
+  margin: auto;
+}
+main .main__about {
+  margin-left: 351px;
+  margin-right: 351px;
+}
