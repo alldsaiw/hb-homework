@@ -107,8 +107,35 @@ main .header-wrapper h1 {
 }
 main .article-wrapper {
   margin-left: 351px;
-  margin-right: 351px;
 }
 main .article-wrapper .main__about {
   font-family: "Montserrat";
+  line-height: 30px;
+  margin-right: 351px;
+}
+main .article-wrapper .main__about .article-span {
+  color: #E33E54;
+}
+main .header2-wrapper {
+  margin-left: 351px;
+  max-width: 630px;
+}
+main .header2-wrapper h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: bold;
+}
+main .header2-wrapper .header-span {
+  color: #E33E54;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+main .why__we__list__item {
+  list-style-image: url(../assets/images/list-marker.svg);
+  text-transform: none;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  padding-left: 17px;
+  color: #000000;
 }

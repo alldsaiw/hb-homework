@@ -4,7 +4,7 @@ main {
 
 
     .header-wrapper {
-        margin-left: 351px;;
+        margin-left: 351px;
 
         h1 {
             font-family: 'Montserrat';
@@ -15,12 +15,47 @@ main {
 
         }
     }
-    .article-wrapper{
-        margin-left: 351px;
-        margin-right: 351px;
 
-    .main__about {
-        font-family: 'Montserrat';
+    .article-wrapper {
+        margin-left: 351px;
+
+        .main__about {
+            font-family: 'Montserrat';
+            line-height: 30px;
+            margin-right: 351px;
+
+            .article-span{
+                color: #E33E54
+            }
+        }
     }
-}
+
+    .header2-wrapper {
+        margin-left: 351px;
+        max-width: 630px;
+
+        h2 {
+            font-family: 'Montserrat';
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .header-span{
+            color: #E33E54;
+            text-transform: uppercase;
+            font-size: 50px;
+        }
+    }
+
+    .why__we__list{
+        &__item{
+            list-style-image: url(./assets/images/main/list-marker.svg);
+            text-transform: none;
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 30px;
+            padding-left: 17px;
+            color: #000000;
+        }
+    }
 }
