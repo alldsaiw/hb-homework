@@ -95,7 +95,20 @@ main {
   max-width: 1920px;
   margin: auto;
 }
-main .main__about {
+main .header-wrapper {
+  margin-left: 351px;
+}
+main .header-wrapper h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+}
+main .article-wrapper {
   margin-left: 351px;
   margin-right: 351px;
+}
+main .article-wrapper .main__about {
+  font-family: "Montserrat";
 }

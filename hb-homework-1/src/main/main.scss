@@ -1,9 +1,26 @@
-main{
+main {
     max-width: 1920px;
     margin: auto;
 
-    .main__about {
+
+    .header-wrapper {
+        margin-left: 351px;;
+
+        h1 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 73px;
+
+        }
+    }
+    .article-wrapper{
         margin-left: 351px;
         margin-right: 351px;
+
+    .main__about {
+        font-family: 'Montserrat';
+    }
 }
 }
