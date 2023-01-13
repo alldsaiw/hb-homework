@@ -12,7 +12,6 @@ main {
             font-weight: 700;
             font-size: 60px;
             line-height: 73px;
-
         }
     }
 
@@ -24,7 +23,7 @@ main {
             line-height: 30px;
             margin-right: 351px;
 
-            .article-span{
+            .article-span {
                 color: #E33E54
             }
         }
@@ -40,22 +39,37 @@ main {
             font-weight: bold;
         }
 
-        .header-span{
+        .header-span {
             color: #E33E54;
             text-transform: uppercase;
             font-size: 50px;
         }
     }
 
-    .why__we__list{
-        &__item{
-            list-style-image: url(./assets/images/main/list-marker.svg);
-            text-transform: none;
-            font-size: 16px;
-            line-height: 24px;
-            padding-bottom: 30px;
-            padding-left: 17px;
-            color: #000000;
+    .article-wrapper__why-we {
+        margin-left: 351px;
+        margin-right: 351px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        .list-wrapper {
+            .why__we__list {
+                &__item {
+                    list-style-image: url(./assets/images/main/list-marker.svg);
+                    text-transform: none;
+                    font-size: 16px;
+                    line-height: 24px;
+                    padding-bottom: 30px;
+                    padding-left: 17px;
+                    color: #000000;
+                }
+            }
+        }
+
+        .illustration-wrapper {
+            .illustr-blob {
+                max-width: 100%;
+            }
         }
     }
 }

@@ -130,7 +130,13 @@ main .header2-wrapper .header-span {
   text-transform: uppercase;
   font-size: 50px;
 }
-main .why__we__list__item {
+main .article-wrapper__why-we {
+  margin-left: 351px;
+  margin-right: 351px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .article-wrapper__why-we .list-wrapper .why__we__list__item {
   list-style-image: url(../assets/images/list-marker.svg);
   text-transform: none;
   font-size: 16px;
@@ -138,4 +144,7 @@ main .why__we__list__item {
   padding-bottom: 30px;
   padding-left: 17px;
   color: #000000;
+}
+main .article-wrapper__why-we .illustration-wrapper .illustr-blob {
+  max-width: 100%;
 }
